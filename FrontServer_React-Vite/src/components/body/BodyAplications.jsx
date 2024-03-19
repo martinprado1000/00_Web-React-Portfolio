@@ -9,8 +9,8 @@ function BodyAplications() {
             imageName="Ecommerce.PNG"
             title="Ecommers API"
             text="Ecommerce desarrollado con Node y React."
-            githubLink="https://github.com"
-            websiteLink="https://example.com"
+            githubLink="https://github.com/martinprado1000/02_API-React_Node-Ecommers.git"
+            websiteLink="https://zero2-api-react-node-ecommers-front.onrender.com/"
           />
         </div>
         <div className="col-md-4 my-3">
@@ -18,8 +18,8 @@ function BodyAplications() {
             imageName="Ecommerce_SSR.PNG"
             title="Ecommerce SSR"
             text="Ecommer desarrollado con Node y renderizado con handlebars."
-            githubLink="https://github.com"
-            websiteLink="https://example.com"
+            githubLink="https://github.com/martinprado1000/Desafio_final.git"
+            websiteLink="https://desafiofinal-production-7877.up.railway.app/login"
           />
         </div>
         <div className="col-md-4 my-3">
@@ -27,8 +27,8 @@ function BodyAplications() {
             imageName="Chat.PNG"
             title="Chat API"
             text="Chat desarrollado con Node y React."
-            githubLink="https://github.com"
-            websiteLink="https://example.com"
+            githubLink="https://github.com/martinprado1000/03_API-React_Node-Chat.git"
+            websiteLink="https://zero3-api-react-node-chat-front.onrender.com/"
           />
         </div>
       </div>
