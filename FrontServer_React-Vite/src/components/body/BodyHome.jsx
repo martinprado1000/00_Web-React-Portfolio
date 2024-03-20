@@ -9,9 +9,15 @@ import {
   FaReact,
   FaDatabase,
   FaBootstrap,
+  FaExternalLinkAlt,
   FaGit,
 } from "react-icons/fa";
 import { SiMysql, SiPhp, SiMongodb } from "react-icons/si";
+
+const buttonStyle = {
+  width: "auto",
+  marginBottom: "5px",
+};
 
 function BodyHome() {
   return (
@@ -170,6 +176,7 @@ function BodyHome() {
                 <p className="card-text">Analista en sistemas, Nov. 2016</p>
               </div>
             </div>
+            <hr />
 
             <div className="card mb-3">
               <div className="card-body">
@@ -181,6 +188,16 @@ function BodyHome() {
               </div>
             </div>
           </div>
+          <hr />
+
+          <a
+            href="/aplications"
+            className="btn btn-primary mt-3"
+            style={buttonStyle}
+            rel="noopener noreferrer"
+          >
+            <FaExternalLinkAlt /> Mis aplicaciones
+          </a>
         </Col>
 
         <Col xs={3} className="bg-dark" style={{ padding: "20px" }}>
