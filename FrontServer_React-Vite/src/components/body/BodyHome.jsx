@@ -1,4 +1,7 @@
 import React from "react";
+import {
+  NavLink,
+} from "react-router-dom";
 import { Container, Row, Col, Image, ProgressBar } from "react-bootstrap";
 import {
   FaMapMarkerAlt,
@@ -190,15 +193,8 @@ function BodyHome() {
           </div>
           <hr />
 
-          <a
-            href="/aplications"
-            className="btn btn-primary mt-3"
-            style={buttonStyle}
-            rel="noopener noreferrer"
-          >
-            <FaExternalLinkAlt /> Mis aplicaciones
-          </a>
-        </Col>
+          <NavLink to="/aplications" className="btn btn-primary mt-3" activeclassname="active"><FaExternalLinkAlt /> Mis aplicaciones</NavLink>
+        </Col>        
 
         <Col xs={3} className="bg-dark" style={{ padding: "20px" }}>
           {/* Imagen */}
