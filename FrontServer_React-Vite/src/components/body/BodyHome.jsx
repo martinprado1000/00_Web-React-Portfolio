@@ -203,7 +203,7 @@ function BodyHome() {
           </div>
           {/* Actitudes */}
           <div className="fs-6">
-            <h6 className="text-primary">Actitudes</h6>
+            <h6 className="text-primary">Aptitudes</h6>
             <div className="mb-2">
               <p>
                 <FaNodeJs /> Node.js
