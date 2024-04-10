@@ -244,7 +244,7 @@ function BodyHome() {
               <p>
                 <SiPhp /> PHP
               </p>
-              <ProgressBar now={50} style={{ height: "8px" }} />
+              <ProgressBar now={60} style={{ height: "8px" }} />
             </div>
           </div>
         </Col>
