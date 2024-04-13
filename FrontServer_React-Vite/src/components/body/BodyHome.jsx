@@ -14,6 +14,7 @@ import {
   FaBootstrap,
   FaExternalLinkAlt,
   FaGit,
+  FaDocker
 } from "react-icons/fa";
 import { SiMysql, SiPhp, SiMongodb } from "react-icons/si";
 
@@ -231,6 +232,12 @@ function BodyHome() {
             <div className="mb-2">
               <p>
                 <FaGit /> Git
+              </p>
+              <ProgressBar now={90} style={{ height: "8px" }} />
+            </div>
+            <div className="mb-2">
+              <p>
+                <FaDocker /> Docker
               </p>
               <ProgressBar now={90} style={{ height: "8px" }} />
             </div>

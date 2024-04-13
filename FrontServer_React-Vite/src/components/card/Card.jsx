@@ -43,6 +43,7 @@ function Card({ imageName, title, text, githubLink, websiteLink }) {
         <hr />
         <Modal.Body>
           <p className="text-primary">PODES PROBAR LA APLICACION haciendo click en el icono website, registrate y listo. Si lo queres probar como usuario superAdministrador (Podras crear, editar y eliminar usuarios y productos) logueate con las siguientes credenciales, Usuario: superdministrador@superadministrador  Paasword: 123456</p>
+          <p className="text-danger">¡IMPORTANTE! La aplicación está alojada en un hosting gratuito, por lo tanto, está suspendida y demora aproximadamente 1 minuto en traer primer dato o ejecutar la primera consulta.</p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
@@ -73,6 +74,7 @@ function Card({ imageName, title, text, githubLink, websiteLink }) {
         <hr />
         <Modal.Body>
           <p className="text-primary">PODES PROBAR LA APLICACION haciendo click en el icono website, registrate y listo. Si lo queres probar como usuario superAdministrador (Podras crear, editar y eliminar usuarios y productos) logueate con las siguientes credenciales, Usuario: superdministrador@superadministrador  Paasword: 123456</p>
+          <p className="text-danger">¡IMPORTANTE! La aplicación está alojada en un hosting gratuito, por lo tanto, está suspendida y demora aproximadamente 1 minuto en traer primer dato o ejecutar la primera consulta.</p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
@@ -105,6 +107,7 @@ function Card({ imageName, title, text, githubLink, websiteLink }) {
         <hr />
         <Modal.Body>
           <p className="text-primary">PODES PROBAR LA APLICACION haciendo click en el icono website, registrate y listo. Si lo queres probar como usuario superAdministrador (Podras crear, editar y eliminar usuarios) logueate con Usuario: superdministrador@superadministrador  Paasword: 123456</p>
+          <p className="text-danger">¡IMPORTANTE! La aplicación está alojada en un hosting gratuito, por lo tanto, está suspendida y demora aproximadamente 1 minuto en traer primer dato o ejecutar la primera consulta.</p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
