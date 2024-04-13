@@ -159,7 +159,6 @@ function BodyHome() {
           </div>
           <hr />
 
-          {/* Educación */}
           <div className="mt-4">
             <h4 className="text-primary">Educación</h4>
 
@@ -180,7 +179,6 @@ function BodyHome() {
                 <p className="card-text">Analista en sistemas, Nov. 2016</p>
               </div>
             </div>
-            <hr />
 
             <div className="card mb-3">
               <div className="card-body">
@@ -190,6 +188,30 @@ function BodyHome() {
                 </h5>
                 <p className="card-text">Técnico electrónico, Nov. 2004</p>
               </div>
+            </div>
+          </div>
+          <hr />
+
+          <div className="mt-4">
+            <h4 className="text-primary">Estudios actuales</h4>
+
+            <div className="card mb-3">
+              <div className="card-body">
+                <h5 className="card-title">Instituto Cambridge</h5>
+                <p className="card-text">
+                  Ingles, inicio: Marzo. 2024
+                </p>
+              </div>
+            </div>
+
+            <div className="card mb-3">
+              <div className="card-body">
+                <h5 className="card-title">
+                  Nest.js
+                </h5>
+                <p className="card-text">Estudio de forma autodidacta</p>
+              </div>
+
             </div>
           </div>
           <hr />
