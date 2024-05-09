@@ -42,7 +42,7 @@ function Card({ imageName, title, text, githubLink, websiteLink }) {
         </Modal.Body>
         <hr />
         <Modal.Body>
-          <p className="text-primary">PODES PROBAR LA APLICACION haciendo click en el icono website, registrate y listo. Si lo queres probar como usuario superAdministrador (Podras crear, editar y eliminar usuarios y productos) logueate con las siguientes credenciales, Usuario: superdministrador@superadministrador  Paasword: 123456</p>
+          <p className="text-primary">PODES PROBAR LA APLICACION haciendo click en el icono website, registrate y listo. Si lo queres probar como usuario superAdministrador (Podras crear, editar y eliminar usuarios y productos) logueate con las siguientes credenciales, Usuario: superadmin@superadmin.com  Paasword: 123456</p>
           <p className="text-danger">¡IMPORTANTE! La aplicación está alojada en un hosting gratuito, por lo tanto, está suspendida y demora aproximadamente 1 minuto en traer el primer dato o ejecutar la primera consulta.</p>
         </Modal.Body>
         <Modal.Footer>
@@ -73,7 +73,7 @@ function Card({ imageName, title, text, githubLink, websiteLink }) {
         </Modal.Body>
         <hr />
         <Modal.Body>
-          <p className="text-primary">PODES PROBAR LA APLICACION haciendo click en el icono website, registrate y listo. Si lo queres probar como usuario superAdministrador (Podras crear, editar y eliminar usuarios y productos) logueate con las siguientes credenciales, Usuario: superdministrador@superadministrador  Paasword: 123456</p>
+          <p className="text-primary">PODES PROBAR LA APLICACION haciendo click en el icono website, registrate y listo. Si lo queres probar como usuario superAdministrador (Podras crear, editar y eliminar usuarios y productos) logueate con las siguientes credenciales, Usuario: superadmin@superadmin.com  Paasword: 123456</p>
           <p className="text-danger">¡IMPORTANTE! La aplicación está alojada en un hosting gratuito, por lo tanto, está suspendida y demora aproximadamente 1 minuto en traer el primer dato o ejecutar la primera consulta.</p>
         </Modal.Body>
         <Modal.Footer>
@@ -106,7 +106,7 @@ function Card({ imageName, title, text, githubLink, websiteLink }) {
         </Modal.Body>
         <hr />
         <Modal.Body>
-          <p className="text-primary">PODES PROBAR LA APLICACION haciendo click en el icono website, registrate y listo. Si lo queres probar como usuario superAdministrador (Podras crear, editar y eliminar usuarios) logueate con Usuario: superdministrador@superadministrador  Paasword: 123456</p>
+          <p className="text-primary">PODES PROBAR LA APLICACION haciendo click en el icono website, registrate y listo. Si lo queres probar como usuario superAdministrador (Podras crear, editar y eliminar usuarios) logueate con Usuario: superadmin@superadmin.com  Paasword: 123456</p>
           <p className="text-danger">¡IMPORTANTE! La aplicación está alojada en un hosting gratuito, por lo tanto, está suspendida y demora aproximadamente 1 minuto en traer el primer dato o ejecutar la primera consulta.</p>
         </Modal.Body>
         <Modal.Footer>
