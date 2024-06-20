@@ -16,7 +16,7 @@ import {
   FaGit,
   FaDocker
 } from "react-icons/fa";
-import { SiMysql, SiPhp, SiMongodb } from "react-icons/si";
+import { SiMysql, SiPhp, SiMui, SiMongodb } from "react-icons/si";
 
 const buttonStyle = {
   width: "auto",
@@ -190,41 +190,16 @@ function BodyHome() {
               </div>
             </div>
           </div>
-          <hr />
 
-          <div className="mt-4">
-            <h4 className="text-primary">Estudios actuales</h4>
-
-            <div className="card mb-3">
-              <div className="card-body">
-                <h5 className="card-title">Instituto Cambridge</h5>
-                <p className="card-text">
-                  Ingles, inicio: Marzo. 2024
-                </p>
-              </div>
-            </div>
-
-            <div className="card mb-3">
-              <div className="card-body">
-                <h5 className="card-title">
-                  Nest.js
-                </h5>
-                <p className="card-text">Estudio de forma autodidacta</p>
-              </div>
-
-            </div>
-          </div>
           <hr />
 
           <NavLink to="/aplications" className="btn btn-primary mt-3" activeclassname="active"><FaExternalLinkAlt /> Mis aplicaciones</NavLink>
         </Col>        
 
         <Col xs={3} className="bg-dark" style={{ padding: "20px" }}>
-          {/* Imagen */}
           <div className="text-center mb-4">
             <Image src="MartinPrado.jpg" rounded style={{ width: "100px" }} />
           </div>
-          {/* Actitudes */}
           <div className="fs-6">
             <h6 className="text-primary">Aptitudes</h6>
             <div className="mb-2">
@@ -237,11 +212,17 @@ function BodyHome() {
               <p>
                 <FaReact /> React
               </p>
-              <ProgressBar now={90} style={{ height: "8px" }} />
+              <ProgressBar now={100} style={{ height: "8px" }} />
             </div>
             <div className="mb-2">
               <p>
                 <SiMongodb /> MongoDB
+              </p>
+              <ProgressBar now={90} style={{ height: "8px" }} />
+            </div>
+            <div className="mb-2">
+              <p>
+              <SiMui /> Material-ui
               </p>
               <ProgressBar now={90} style={{ height: "8px" }} />
             </div>
