@@ -173,6 +173,15 @@ function BodyHome() {
 
             <div className="card mb-3">
               <div className="card-body">
+                <h5 className="card-title">Coderhouse</h5>
+                <p className="card-text">
+                  Programador Frontend, React.js, Ago. 2024
+                </p>
+              </div>
+            </div>
+
+            <div className="card mb-3">
+              <div className="card-body">
                 <h5 className="card-title">
                   Terciario Urquiza, Rosario, Santa Fe
                 </h5>
